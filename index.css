@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    justify-content: center;
+    padding: 12px;
+
+}
+.container1{
+    margin: 25px;
+    width: 80%;
+    padding: 10px;
+    background: #fff;
+}
+.container1 > h2{
+    margin-bottom: 13px;
+    font-size: 15px;
+    color: rgb(145, 166, 224);
+    font-family: poppins
+    
+    ;
+}
+.container1 > h4{
+    margin-bottom: 13px;
+    font-size: 12px;
+    color: rgb(2, 128, 9);
+    font-family: poppins;
+}
+
+.container1 > p{
+    font-size: 11px;
+     color: rgb(145, 144, 144);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+}
+
