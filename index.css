@@ -2,19 +2,20 @@
     padding: 0;
     margin: 0;
 }
-.main{
+
+.container{
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
     justify-content: center;
-    padding: 12px;
+    padding: 6%;
+    background: lightblue;
 
 }
 .container1{
-    margin: 25px;
-    width: 80%;
-    padding: 10px;
+    padding-top: 20px;
     background: #fff;
+    padding-left: 25px;
+
 }
 .container1 > h2{
     margin-bottom: 13px;
@@ -36,5 +37,57 @@
      color: rgb(145, 144, 144);
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
+    margin-bottom: 30px;
+}
+.container2{
+     padding-top: 25px;
+    background: rgb(56, 181, 231);
+    color: #fff;
+    padding-left: 25px;
+}
+.container2 > h2{
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family:sans-serif;
+}
+.container2 > h4{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: poppins;
+}
+.month{
+    font-size: x-small;
+}
+.container2 > p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+#input{
+    width: 70%;
+    color: #fff;
+    background: rgb(118, 211, 56);
+    padding: 10px;
+    border: 0.5px solid lightgreen;
+    border-radius: 10px;
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.container3{
+    padding-top: 15px;
+   background: rgb(128, 215, 250);
+   color: #fff;
+   padding-left: 25px;
+}
+.container3 > h3{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container3 > p{
+    font-family: poppins;
+    font-size: small;
 }
 
